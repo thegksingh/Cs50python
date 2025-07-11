@@ -45,7 +45,7 @@ print (f"{mult:.2f}")
 
 
 
-#now we habe written code the way that it will take add,subtract,divide or multiply as input and decide which thing to Perform accordingly. as for now it can Perform only one put of four at a time. To give another input you have to rerun the code.
+#now we have written code the way that it will take add,subtract,divide or multiply as input and decide which thing to Perform accordingly. as for now it can Perform only one output of four at a time. To give another input you have to rerun the code.
 #choosen a variable what whicn take input and if input if any one from add,subtract,divide or multiply it's run accordingly 
 #firts its ask if value or variable is add,if yes then its run add run code
 #if its not add then it check for subtract, if yes then it run subtract code
@@ -59,7 +59,7 @@ if what == "add":
         print (f"{a1 + a2:.2f}")
 
 elif what == "subtract":
-        s1 = float( input("why not let's simple subtraction, what do you want to add: "))
+        s1 = float( input("why not let's do simple subtraction, what do you want to add: "))
         s2 = float( input("to , "))
         print (f"{s1 - s2:.2f}")
 
@@ -75,7 +75,7 @@ elif what  == "multiply":
 else :
         print("invalid input")
 
-print("Hope we will meet again! ")
+print("Hope we meet again! ")
 
    
 
