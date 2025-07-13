@@ -9,3 +9,5 @@ day 6 used conditional to make code for calculator shorter
 day 7 solved problem set 1(cs50) deep.py 
 
 day 8 solved problem set 1(cs50) bank.py 
+
+day 9 solved problem set 1(cs50) extensions.py
