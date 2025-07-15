@@ -14,9 +14,9 @@ print (F"{add:.2f}")
 
 #subtraction 
 #prompting user for input 
-a = float( input("now lets do simple subtraction, type a digit: "))
-b = float( input(" "))
-sub = float(a - b)
+h = float( input("now lets do simple subtraction, type a digit: "))
+g = float( input(" "))
+sub = float(h - g)
 
 ##print float value with two decimal places 
 print (f"{sub:.2f}")
@@ -44,7 +44,6 @@ print (f"{mult:.2f}")
 
 
 
-
 #now we have written code the way that it will take add,subtract,divide or multiply as input and decide which thing to Perform accordingly. as for now it can Perform only one output of four at a time. To give another input you have to rerun the code.
 #choosen a variable what whicn take input and if input if any one from add,subtract,divide or multiply it's run accordingly 
 #firts its ask if value or variable is add,if yes then its run add run code
@@ -52,7 +51,7 @@ print (f"{mult:.2f}")
 #if it not add or subtract it check for divde,if yes then it run divide code
 #if its not anyone above three then it check for multiply, if yes it run multiply code
 #and for some odd reason user decide not type anything esle then any four of these,it will print invalid input 
-what = input("what do you want to do? add, subtract,divide or multiply ")
+what = input("what do you want to do? add, subtract,divide or multiply ").strip()
 if what == "add":
         a1 = float( input("Okay let's do addition, what do you want to add: "))
         a2 = float(input("to: "))
@@ -79,8 +78,27 @@ print("Hope we meet again! ")
 
    
 
-    
 
+#improvement 3 used while to loop 10 times  
+
+i = 0
+while i < 10:
+        cal3 = input("what do you want to calculate? write in (x + y) formate x and y can be any real number: ")
+        m1, n, b1 = cal3.split(" ")
+        m = float(m1)
+        b = float(b1)
+        if n == "+":
+                print(f"{m + b:.2f}")
+        elif n == "-":
+                print(f"{m - b:.2f}")
+        elif n == "/":
+                print(f"{m / b:.2f}")
+        elif n == "*":
+                print(f"{m * b:.2f}")
+        else: 
+                print ("invalid input! make sure you have written expressions in (x + y) formate" )
+
+        i += 1
 
 
 

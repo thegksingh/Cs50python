@@ -13,3 +13,5 @@ day 8 solved problem set 1(cs50) bank.py
 day 9 solved problem set 1(cs50) extensions.py
 
 day 10 solved problem set 1(cs50) interpreter.py and meal.py
+
+day 11 improved calculator.py, now it's loop for 10 time and can directly calculate 
