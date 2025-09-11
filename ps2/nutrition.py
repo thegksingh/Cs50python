@@ -23,4 +23,4 @@ calories = {
 fruit = input("Item : ").strip().lower()
 present = calories.get(fruit)
 if present:
-    print("Calories :", cal)
+    print("Calories :", present)
