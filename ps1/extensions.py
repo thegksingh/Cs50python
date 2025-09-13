@@ -1,18 +1,18 @@
-fileextension =input("File name: ")
+fileextension =input("File name: ").strip().lower()
 if fileextension.endswith(".gif"):
-    print("Image/.gif")
+    print("image/gif")
 elif fileextension.endswith(".jpg"):
-    print("Image/.jpg")
+    print("image/jpg")
 elif fileextension.endswith(".jpeg"):
-    print("Image/.jpeg")
+    print("image/jpeg")
 elif fileextension.endswith(".png"):
-    print("Image/.png")
+    print("image/png")
 elif fileextension.endswith(".pdf"):
-    print("Image/.pdf")
+    print("image/pdf")
 elif fileextension.endswith(".txt"):
-    print("Image/.txt")
+    print("image/txt")
 elif fileextension.endswith(".zip"):
-    print("Image/.zip")
+    print("image/zip")
 else:
     print("application/octet-stream")
 
