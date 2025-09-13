@@ -11,8 +11,8 @@ menu = {
 }
 total = 0
 while True:
-    order = input("Item: ").title()
     try:
+        order = input("Item: ").title()
         if order in menu:
             total += menu[order]    
             print(f"Total: ${total:.2f}")

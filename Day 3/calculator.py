@@ -99,10 +99,4 @@ while i < 10:
                 print ("invalid input! make sure you have written expressions in (x + y) formate" )
 
         i += 1
-
-
-
-
-
-
-
+        
