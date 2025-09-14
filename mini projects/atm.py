@@ -7,7 +7,7 @@ for i in range(3):
         print("Have a nice day! ")
         exit()
     if not pin.isdigit():
-        print("Invalid input! " )
+        print("Invalid input! ")
         continue
     numberpin = int(pin)
     if numberpin == 1234:

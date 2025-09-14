@@ -30,8 +30,3 @@ while userscore < 2 and computerscore < 2:
         print("Too bad you lost game. ")
     if userchoice == "exit":
         exit()
-        
-    
-
-
-
