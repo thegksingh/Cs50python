@@ -1,6 +1,14 @@
-type = input("Input: ")
-output = ""
-for letter in type:
-    if letter not in "AEIOUaeiou":
-        output += letter
-print(f"Output : {output}")
+def main():
+    text = input("Input: ")
+    print("Output:", shorten(text))
+
+
+def shorten(word):
+    output = ""
+    for letter in text:
+        if letter not in "AEIOUaeiou":
+            output += letter
+    return output
+
+if __name__ = "__main__":
+    main()
