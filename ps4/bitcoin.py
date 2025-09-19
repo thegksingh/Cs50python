@@ -13,7 +13,7 @@ try:
         data = result.json()
         price = float(data["data"]["priceUsd"])
         cost = price * amount
-        print(f"${cost}")
+        print(f"${cost:,.4f}")
     except requests.RequestException:
         sys.exit()
 except ValueError:
