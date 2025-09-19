@@ -1,11 +1,12 @@
 import inflect
 
 p = inflect.engine()
-lists = []
+names = []
 while True:
     try:
-        name = input("Name: ")
-        lists.append(name)
+        name = input("").strip()
+        if name:
+            names.append(name)
     except EOFError:
         break
-print("Adieu, adieu, to", p.join(lists))
+print(f"Adieu, adieu, to {p.join(names)}")
