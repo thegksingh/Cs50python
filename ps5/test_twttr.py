@@ -18,7 +18,9 @@ def test_mixedcase():
 
 def test_numbers_symbols():
     assert shorten("1234") == "1234"
-    assert shorten("h@ack") == "h@ck"
+
+def test_punctuation():
+    assert shorten("h@ack!") == "h@ck!"
 
 
 def test_empty():
