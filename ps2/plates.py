@@ -21,6 +21,9 @@ def is_valid(s):
             if number_started:   
                 return False
     return s.isalnum()
+
+if __name__ == "__main__":
+    main()
           
                                                                                                                                                                                                                 
     
@@ -29,4 +32,3 @@ def is_valid(s):
                                     
 
 
-main()

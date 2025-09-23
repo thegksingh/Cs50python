@@ -3,12 +3,12 @@ def main():
     print("Output:", shorten(text))
 
 
-def shorten(word):
+def shorten(text):
     output = ""
     for letter in text:
         if letter not in "AEIOUaeiou":
             output += letter
     return output
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
