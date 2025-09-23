@@ -17,9 +17,15 @@ def test_x_y_error():
 def test_input_error():
     with pytest.raises(ValueError):
         convert("cat")
+        
+def test_negative_frac():
+    with pytest.raises(ValueError):
+        convert("-1/2")
 
 def test_percentage():
     assert gauge(25) == "25%"
     assert gauge(50) == "50%"
     assert gauge(100) == "F"
     assert gauge(0) == "E"
+    assert gauge(99) == "F"
+    assert gauge(1) == "E"
