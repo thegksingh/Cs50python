@@ -21,6 +21,9 @@ def test_len():
 def test_ch():
     assert is_valid("Hg#7") == False
 
+def test_zeroplacement():
+    assert is_valid("CS05") == False
+
 
 
 
