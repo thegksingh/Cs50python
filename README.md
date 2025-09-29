@@ -7,7 +7,7 @@ I have completed all the course lectures and I am actively working through the p
 ---
 
 ## Repository Structure
-
+```
 Cs50python/
 ├── ps0/
 ├── ps1/
@@ -19,7 +19,7 @@ Cs50python/
 ├── mini projects/
 ├── Fun exercise/
 └── README.md
-
+```
 - **ps0, ps1, …** — Solutions to CS50P problem sets  
 - **mini projects** — Small personal projects and experiments  
 - **Fun exercise** — Practice code and exploratory work  
