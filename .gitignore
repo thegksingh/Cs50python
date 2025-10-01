@@ -1,16 +1,6 @@
-# Byte-compiled / cache files
+venv/
 __pycache__/
 *.pyc
-
-# Virtual environment
-venv/
-
-# IDE folders
 .vscode/
 .idea/
-
-# OS files
 .DS_Store
-
-# Other unwanted
-*.env
