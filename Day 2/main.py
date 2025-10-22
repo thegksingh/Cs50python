@@ -1,6 +1,0 @@
-name = input( "what's your name? ")
-print (f"hello, {name}")
-check = input( "how are you? ")
-print (f"its great to hear that you are {check}")
-task = input ("what do you want to do today ?")
-print (f" {task}, that sound interesting ")

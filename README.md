@@ -9,6 +9,7 @@ I have completed all the course lectures and I am actively working through the p
 ## Repository Structure
 ```
 Cs50python/
+├──practice
 ├── ps0/
 ├── ps1/
 ├── ps2/
@@ -66,12 +67,14 @@ To try out the code locally:
 ```bash
 # Clone this repository
 git clone https://github.com/thegksingh/Cs50python.git
-
+---
+```bash
 # Navigate into the folder
 cd Cs50python
 
 # Run a Python file (example)
 python ps0/hello.py
+---
 
 Requirements
 
