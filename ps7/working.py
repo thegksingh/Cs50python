@@ -2,10 +2,7 @@ import re
 import sys
 
 def main():
-    try:
-        print(convert(input("Hours: ")))
-    except ValueError:
-        sys.exit()
+    print(convert(input("Hours: ")))
         
 def convert(s):
     pattern = r"^(\d{1,2})(?::(\d{2}))?\s(AM|PM)\s+to\s+(\d{1,2})(?::(\d{2}))?\s(AM|PM)$"
