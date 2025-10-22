@@ -21,6 +21,7 @@ Cs50python/
 ├── ps8/
 ├── mini projects/
 ├── Fun exercise/
+├── requirements.txt
 └── README.md
 ```
 - **ps0, ps1, …** — Solutions to CS50P problem sets  
@@ -61,33 +62,34 @@ I do not come from a traditional computer science background. My motivation for 
 
 This repository is not only a collection of solutions but also a record of my learning process — including progress, challenges, and growth as a programmer.
 
----
 
 ## How to Run
 
 To try out the code locally:
 
-```bash
-# Clone this repository
-git clone https://github.com/thegksingh/Cs50python.git
----
 
+### Clone this repository
 ```bash
-# install dependencies
+git clone https://github.com/thegksingh/Cs50python.git
+```
+
+### install dependencies
+```bash
 pip install -r requirements.txt
 ```
 
+
+### Navigate into the folder
 ```bash
-# Navigate into the folder
 cd Cs50python
 ```
 
+### Run a Python file (example)
 ```bash
-# Run a Python file (example)
 python ps0/esistein.py
----
+```
 
-Requirements
+# Requirements
 
 Python 3.10 or later is recommended
 
@@ -97,7 +99,7 @@ Some projects may use external libraries (a requirements.txt file will be added 
 
 ---
 
-Closing Notes
+# Closing Notes
 
 This repository is a work in progress and will be updated regularly. My aim is not only to complete CS50P but also to document a clear, structured learning journey in Python.
 
